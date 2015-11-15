@@ -12,7 +12,7 @@ int main()
     test1 = Singleton::getInstance();
     test2 = Singleton::getInstance();
     if(test1 == test2) {
-    	cout<<"test1 = test2, there is a only one Singleton instance."<<endl;
+    	cout<<"test1 = test2, there is an only one Singleton instance."<<endl;
     }
     return 0;
 }
